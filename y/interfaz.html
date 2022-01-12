@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta nama="viewport" content="width, initial-scale=1.0>
+
+    <title> Document </title>
+
+<link rel="stylesheet" href="interfaz.css" />
+
+
+</head>
+
+<body>
+   <h1 id="heading"> Teorema de Pitagoras </h1>
+
+
+   <div id="container">
+   
+   <img id="triangle" alt=""triangle" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Triangle.Right.svg/1200px-Triangle.Right.svg.png">
+
+ 
+        <input placeholder="A" id="aInput">
+ 
+       <input placeholder="B" id="bInput">
+       <div id="result"></div>
+ 
+       <button id="button">Calcular</button>
+    </div>
+ 
+    <script>
+
+
+var button = document.getElementById('button');
+ 
+        function calculateHypotenuse(){
+            var a = document.getElementById('aInput').value;
+            var b = document.getElementById('bInput').value;
+ 
+            var result = document.getElementById('result');
+ 
+            var hypotenuse = Math.round(Math.sqrt((a*a)+ (b*b)));
+            
+            result.innerHTML=hypotenuse;
+        }
+ 
+        button.addEventListener('click',  calculateHypotenuse)
+    </script>
+</body>
+</html>

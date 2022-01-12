@@ -1,0 +1,50 @@
+[debug] [2022-01-12T22:03:35.851Z] ----------------------------------------------------------------------
+[debug] [2022-01-12T22:03:35.854Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sygma2\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-01-12T22:03:35.855Z] CLI Version:   10.1.0
+[debug] [2022-01-12T22:03:35.855Z] Platform:      win32
+[debug] [2022-01-12T22:03:35.855Z] Node Version:  v17.3.0
+[debug] [2022-01-12T22:03:35.857Z] Time:          Wed Jan 12 2022 16:03:35 GMT-0600 (hora estándar central)
+[debug] [2022-01-12T22:03:35.857Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-12T22:03:35.962Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-01-12T22:03:35.963Z] > authorizing via signed-in user (yisuscond@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Sygma2\Desktop\Saith\TeoremaPi
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-01-12T22:03:52.404Z] Using project from CLI flag: pruebaspitagoras-47503
+[debug] [2022-01-12T22:03:52.408Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/pruebaspitagoras-47503 [none]
+[debug] [2022-01-12T22:03:53.624Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/pruebaspitagoras-47503 200
+[debug] [2022-01-12T22:03:53.625Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/pruebaspitagoras-47503 {"projectId":"pruebaspitagoras-47503","projectNumber":"776716555689","displayName":"PruebasPitagoras","name":"projects/pruebaspitagoras-47503","resources":{"hostingSite":"pruebaspitagoras-47503"},"state":"ACTIVE"}
+[info] i  Using project pruebaspitagoras-47503 (PruebasPitagoras) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-01-12T22:04:35.128Z] Error: kill ENOSYS
+    at process.kill (node:internal/process/per_thread:214:13)
+    at process.listener (C:\Users\Sygma2\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\signal-exit\index.js:95:15)
+    at process.emit (node:events:390:28)
+[error] 
+[error] Error: An unexpected error has occurred.
