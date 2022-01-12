@@ -1,0 +1,20 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Prueba de Software}
+\author{Meneses Conde Jesus Saith}
+\date{Enero 2022}
+
+\begin{document}
+
+\maketitle
+
+\section{Vision}
+
+Crear una pagina web donde se pueda obtener el resultado automaticamente usando el teorema de pitagoras. 
+
+\section{Alcance}
+
+Esta apagina web siempre obtendra el resultado esperado siempre y cuando tenga las variables requeridas.
+
+\end{document}
