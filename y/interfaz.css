@@ -1,0 +1,47 @@
+ {
+            position:relative;
+        }
+
+
+triangle{
+            width:230px;
+            display:flex;
+            align-self:center;
+            margin:auto;
+        }
+        body{
+            background-color:#932;
+        }
+        input::placeholder{
+            text-align:center;
+            font-weight:bold;
+            color:black;
+        }
+        input{
+            width:40px;
+        }
+        bInput{
+            left:330px;
+            top:20px;
+        }
+        aInput{
+            left:235px;
+            bottom:100px;
+        }
+        button{
+            width:70px;
+        }
+        result{
+            width:40px;
+            background-color:white;
+            text-align:center;
+            position:relative;
+            font-weight:bold;
+            font-family:sans-serif;
+            left:340px;
+            bottom:100px;
+        }
+        heading{
+            color:white;
+            text-align:center;
+        }
